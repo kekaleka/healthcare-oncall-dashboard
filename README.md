@@ -89,7 +89,59 @@ python create_schedule.py
 ---
 
 ## Screenshots
+### Dashboard Overview
 
+Interactive dashboard that allows users to select a date, department, and shift to instantly retrieve the assigned healthcare provider using XLOOKUP.
+
+![Dashboard Overview](screenshots/dashboard-overview.png)
+
+---
+
+### Providers Dataset
+
+Healthcare provider master dataset generated with Python.
+
+![Providers Dataset](screenshots/providers-table.png)
+
+---
+
+### Schedule Dataset
+
+Automatically generated provider schedule containing department assignments, shifts, and scheduling status.
+
+![Schedule Dataset](screenshots/schedule-table.png)
+
+---
+
+### Department Shift Coverage Summary
+
+PivotTable summarizing assigned shifts by department and month.
+
+![Department Shift Coverage Summary](screenshots/department-coverage-pivot.png)
+
+---
+
+### Provider Workload Summary
+
+PivotTable showing the distribution of assigned shifts across healthcare providers.
+
+![Provider Workload Summary](screenshots/provider-workload-pivot.png)
+
+---
+
+### Provider Level Distribution
+
+PivotTable displaying the staffing mix of Residents, Fellows, and Attendings.
+
+![Provider Level Distribution](screenshots/provider-level-distribution.png)
+
+---
+
+### Schedule Status Summary
+
+PivotTable summarizing the status of scheduled shifts.
+
+![Schedule Status Summary](screenshots/schedule-status-summary.png)
 
 ---
 
@@ -98,4 +150,4 @@ python create_schedule.py
 **Keona Lollis**
 
 - GitHub: https://github.com/kekaleka
-- LinkedIn: *(add your LinkedIn profile URL here)*
+- LinkedIn: www.linkedin.com/in/keona-lollis-924176266
